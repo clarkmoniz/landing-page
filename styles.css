@@ -82,6 +82,7 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-top: 25px;
+  margin-bottom: 100px;
 }
 
 .second-header {
@@ -113,4 +114,34 @@ ul {
 .item-subtext {
   font-size: 18px;
   color: #1f2937;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 0 250px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin-top: 100px;
+  font-weight: 100;
+}
+
+.author {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  left: 10;
+}
+
+.fourth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
 }
