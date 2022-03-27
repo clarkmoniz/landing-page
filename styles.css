@@ -38,6 +38,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 120px;
   margin: 50px 0px;
 }
 
@@ -144,4 +145,54 @@ ul {
   align-items: center;
   justify-content: center;
   gap: 120px;
+}
+
+.fourth-container {
+  display: flex;
+  align-items: center;
+  background-color: #3882f6;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 24px;
+  gap: 48px;
+  border-radius: 20px;
+}
+
+.fourth-content {
+  margin: 0;
+}
+
+.fourth-header {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.fourth-text {
+  color: #f9faf8;
+  margin: 0;
+}
+
+.fourth-paragraph {
+  color: #e5e7eb;
+}
+
+.fourth-button {
+  padding: 8px 35px;
+  background-color: #3882f6;
+  border: solid #fbfbfb 2px;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 76px;
+}
+
+.footer-text {
+  color: #f9faf8;
+  font-size: 18px;
 }
